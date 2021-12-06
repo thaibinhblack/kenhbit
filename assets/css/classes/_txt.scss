@@ -1,0 +1,70 @@
+@import  '../variables/colors';
+@import '../variables/font';
+
+.\--txt-uppercase {
+  text-transform: uppercase;
+}
+
+.\--txt-white {
+  color: $white-1;
+}
+
+.\--txt-yellow {
+  color: $text-color-crypto;
+}
+
+.\--txt-up {
+  color: $text-color-up;
+}
+
+.\--txt-down {
+  color: $text-color-down;
+}
+
+.\--txt-small {
+  font-size: $text-small;
+}
+
+.\--txt-link {
+  text-decoration: none;
+}
+
+.\--txt-title {
+  font-weight: bold;
+  font-size: 42.2908px;
+  line-height: 49px;
+}
+
+.\--txt-meta {
+  font-weight: 500;
+  font-size: 28.1939px;
+  line-height: 27px;
+}
+
+.\--txt-meta-small {
+  font-weight: 500;
+  font-size: 16.8813px;
+  line-height: 24px;
+}
+
+.\--title {
+  font-family: $font-HK-Grotesk-Bold;
+}
+
+.\--txt-center {
+  text-align: center;
+}
+
+.\--txt-link-btn {
+  text-decoration: none;
+  padding: 10.26px 35px;
+  background-color: $bg-link-text;
+  font-weight: bold;
+  font-size: 25.0149px;
+  line-height: 29px;
+  border-radius: 100px;
+}
+
+.\--txt-blue {
+  color: $text-color-blue;
+}

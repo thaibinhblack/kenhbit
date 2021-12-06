@@ -1,0 +1,150 @@
+@import '../variables/colors';
+
+.news {
+  padding-bottom: 36.39px;
+
+  &__banner-container {
+    width: 59.73%;
+    padding-right: 9px;
+    padding-left: 15px;
+  }
+
+  &__right-container {
+    padding-left: 8px;
+    padding-right: 15px;
+    width: calc(100% - 59.73%);
+  }
+
+  &__banner {
+    position: relative;
+    width: 100%;
+    padding-top: 69.57%;
+    z-index: 1;
+  }
+
+  &__banner-info {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 33.36px 22.93px 34.4px 54.2px;
+    background-color: rgba($color: #000000, $alpha: .6);
+  }
+
+  &__title {
+    height: 113.62px;
+  }
+
+  &__meta {
+    margin-top: 7.3px;
+  }
+
+  &__right {
+    width: 100%;
+  }
+
+  &__item-left {
+    width: 33.73%;
+  }
+
+  &__item-right {
+    width: calc(100% - 33.73%);
+    padding-left: 20.05px;
+  }
+
+  &__right-menu {
+    display: block;
+    width: 100%;
+    padding-left: 19.81px;
+    padding-right: 11.42px;
+  }
+
+  &__right-item-menu {
+    width: 100%;
+    padding: 15.64px 0 18.74px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  &__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-bg {
+    padding-top: 73.15%;
+  }
+
+  &__item-title {
+    font-style: normal;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 22.9324px;
+    line-height: 27px;
+  }
+}
+
+.news-post {
+  padding-bottom: 52.23px;
+
+  &__item {
+    padding-top: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    &.\--reverse {
+      flex-direction: column-reverse;
+      & * {
+        border-radius: 0;
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__bg {
+    flex: 1;
+    padding-top: 74.24%;
+    border-radius: 5px;
+  }
+
+  &__content {
+    border: 1px solid $gray-2;
+    padding: 17.96px 5.99px 35.83px 22.95px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  &__excerpt {
+    margin: 20px 0;
+  }
+
+  &__meta-author {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__author-img {
+    width: 39.37px;
+    height: 39.37px;
+    border-radius: 50%;
+    transform: translateZ(1);
+  }
+
+  &__info-author {
+    display: block;
+    width: calc(100% - 44.13px);
+    padding-left: 10px;
+  }
+
+  &__time {
+    color: $text-color-meta-time-author;
+  }
+
+  &__link-btn {
+    display: inline-block;
+    margin: auto;
+    margin-top: 24.75px;
+  }
+}

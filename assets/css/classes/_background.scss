@@ -1,0 +1,15 @@
+@import '../variables/colors';
+
+[data-background], .lazy {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.\--bg-widget-header {
+  background-color: $bg-color-widget-header;
+}
+
+.\--bg-banner-linear {
+  background-image: linear-gradient(217.79deg, rgba(3, 0, 133, 0) 17.6%, rgba(139, 26, 228, 0.2) 97.47%), linear-gradient(360deg, rgba(21, 31, 113, 0) 0%, #151F71 16.28%);
+}

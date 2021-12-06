@@ -1,0 +1,72 @@
+@import '../variables/colors';
+
+.video {
+  background-color: $bg-section-video;
+
+  &__container {
+    padding: 64px 15px 117px;
+    width: 100%;
+  }
+
+  &__title {
+   span {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+   }
+  }
+
+  &__content {
+    display: flex;
+    padding-top: 34px;
+  }
+
+  &__content-video {
+    width: 64%;
+  }
+
+  &__content-right {
+    width: calc(100% - 64%);
+  }
+
+  &__content-header-right {
+    background-color: $bg-header-video;
+    padding: 25px 12px 23px 28px;
+
+    & span {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__title-header {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.025em;
+    margin-bottom: 10px;
+  }
+
+  &__txt-description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  &__item-more {
+    padding-left: 28px;
+    padding-right: 21px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
+  &__item-bg-container {
+    width: 47.85%;
+  }
+
+  &__item-bg {
+    width: 100%;
+    padding-top: 77.6%;
+  }
+}

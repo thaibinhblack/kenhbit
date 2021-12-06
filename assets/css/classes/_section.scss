@@ -1,0 +1,50 @@
+@import '../variables/colors';
+@import '../variables/font';
+
+.section {
+  width: 100%;
+
+  &__header-container {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  &__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid $bg-header-title-section;
+  }
+
+  &__title-header {
+    font-family: $font-HK-Grotesk-Bold;
+    background-color: $bg-header-title-section;
+    border-radius: 5px 5px 0 0;
+    padding: 17px 94px 13px 61px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn {
+    margin: 0 3.5px;
+    color: $text-color-icon-section;
+    background-color: $white-1;
+    border:1px solid $text-color-icon-section;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.\--active {
+      color: $text-color-icon-section-active;
+    }
+  }
+}

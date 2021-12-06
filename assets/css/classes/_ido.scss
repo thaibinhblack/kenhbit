@@ -1,0 +1,117 @@
+@import '../variables/colors';
+
+.ido {
+  padding-bottom: 40px;
+
+  &__container {
+    padding: 15px;
+    width: 100%;
+  }
+
+  &__list {
+    padding: 49px 39px;
+    background-color: $bg-section-ido;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-right: 65px;
+    padding-left: 54px;
+    border-right: 1px solid $border-time-down;
+    
+    &:first-child {
+      padding-left: 0
+    }
+
+    &:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+
+  }
+
+  &__banner-container {
+    width: 87px;
+    height: 87px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    transform: translateZ(1);
+    background-color: $violet-1;
+    justify-content: center;
+  }
+
+  &__banner {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__info-container {
+    margin-left: 28.5px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 21.5327px;
+    line-height: 25px;
+    letter-spacing: -0.025em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__time-down-container {
+    margin-top: 6.26px;
+    display: flex;
+  }
+
+  &__time-down {
+    padding: 0 6px;
+    flex: 1;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__time-day {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 7.18px 5.38px;
+    border-radius: 4.5px;
+    justify-content: center;
+    background-color: $bg-time-down;
+  }
+
+  &__text-time {
+    display: inline-block;
+    width: 100%;
+  }
+
+  &__time-value {
+    font-weight: bold;
+    font-size: 16.1495px;
+    line-height: 19px;
+  }
+
+  &__time-label {
+    font-weight: 500;
+    font-size: 12.5607px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+  }
+}
